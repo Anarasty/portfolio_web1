@@ -356,7 +356,71 @@ section.active {
     color: var(--main-color);
 }
 
+.resume__detail {
+    display: none;
+}
+
+.resume__detail.active {
+    display: block;
+}
+
 .resume__box .heading {
     font-size: 3.5rem;
     text-align: left;
+}
+
+.resume__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    height: 45rem;
+    overflow: auto;
+}
+
+.resume__list::-webkit-scrollbar {
+    width: .7rem;
+}
+
+.resume__list::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 1rem;
+}
+
+.resume__list:hover::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+.resume__list .resume__item {
+    background: var(--second-bg-color);
+    border-radius: 0.8rem;
+    padding: 3rem 2.5rem;
+    height: calc((45rem - 2rem) / 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume__item .year {
+    color: var(--main-color);
+}
+
+.resume__item h3 {
+    font-size: 2.2rem;
+}
+
+.resume__item .company {
+    position: relative;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.resume__item .company::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: .5rem;
+    background: var(--main-color);
+    border-radius: 50%;
+    margin-left: -2rem;
 }
