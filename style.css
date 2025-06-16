@@ -424,3 +424,65 @@ section.active {
     border-radius: 50%;
     margin-left: -2rem;
 }
+
+.resume__detail.skills .resume__list {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    height: auto;
+    overflow: visible;
+}
+
+.resume__detail.skills .resume__item {
+    position: relative;
+    align-items: center;
+    height: auto;
+}
+
+.resume__detail.skills .resume__item i {
+    font-size: 8.5rem;
+    transition: .5s;
+}
+
+.resume__detail.skills .resume__item:hover i {
+    color: var(--main-color);
+}
+
+.resume__detail.skills .resume__item span {
+    position: absolute;
+    top: -20%;
+    background: var(--white-color);
+    color: var(--bg-color);
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(.9);
+    transition: .2s;
+}
+
+.resume__detail.skills .resume__item:hover span {
+    top: -25%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.resume__detail.about .resume__list {
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.resume__detail.about .resume__item {
+    height: auto;
+    padding: 0 0 .5rem;
+    background: transparent;
+}
+
+.resume__detail.about .resume__item p {
+    color: var(--main-color);
+}
+
+.resume__detail.about .resume__item p span {
+    color: var(--white-color);
+    margin-left: 1rem;
+    font-size: 1.8rem;
+}
