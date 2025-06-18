@@ -1,4 +1,0 @@
-# FAQ
-
-## Deployment Link
-Link - ....
