@@ -1,422 +1,577 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="./images/logo11-removebg-preview.png" type="image/x-icon">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/logo11-removebg-preview.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <header class="active">
-        <a href="#" class="logo">Nika.</a>
+      <a href="#" class="logo">Nika.</a>
 
-        <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
 
     <div class="bars__box active">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
     </div>
 
     <section class="home active">
-        <div class="home__detail">
-            <h1>Nika Minaieva</h1>
-            <h2>Frontend
-                <span data-text="Developer">Developer</span>
-            </h2>
-            <p>I am a frontend developer focused on creating responsive and user-friendly interfaces. I work with HTML, CSS, JavaScript, and modern frameworks like React and Next.js. I love clean code, pay attention to details, and always strive to improve user experience.</p>
-            <div class="btn__sci">
-                <a href="./images/CV_1.pdf" download class="btn">Download CV</a>
-                <div class="sci">
-                    <a href="https://github.com/Anarasty" target="_blank"><i class="bx bxl-github"></i></a>
-                    <a href="https://www.linkedin.com/in/veronika-minaieva-91b00b1b6/" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://discord.com/users/386851456835125249" target="_blank"><i class="bx bxl-discord-alt"></i></a>
-                    <a href="https://codepen.io/Anarasty" target="_blank"><i class='bx bxl-codepen'></i></a>
-                </div>
-            </div>
-        </div>  
-
-        <div class="home__img">
-            <div class="img__box">
-                <div class="img__item">
-                    <img src="./images/photo.jpg" alt="photo">
-                </div>
-            </div>
+      <div class="home__detail">
+        <h1>Nika Minaieva</h1>
+        <h2>
+          Frontend
+          <span data-text="Developer">Developer</span>
+        </h2>
+        <p>
+          I am a frontend developer focused on creating responsive and
+          user-friendly interfaces. I work with HTML, CSS, JavaScript, and
+          modern frameworks like React and Next.js. I love clean code, pay
+          attention to details, and always strive to improve user experience.
+        </p>
+        <div class="btn__sci">
+          <a href="./images/CV_1.pdf" download class="btn">Download CV</a>
+          <div class="sci">
+            <a href="https://github.com/Anarasty" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/veronika-minaieva-91b00b1b6/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://discord.com/users/386851456835125249"
+              target="_blank"
+              ><i class="bx bxl-discord-alt"></i
+            ></a>
+            <a href="https://codepen.io/Anarasty" target="_blank"
+              ><i class="bx bxl-codepen"></i
+            ></a>
+          </div>
         </div>
+      </div>
+
+      <div class="home__img">
+        <div class="img__box">
+          <div class="img__item">
+            <img src="./images/photo.jpg" alt="photo" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="services">
-        <h2 class="heading">My <span>Services</span></h2>
-        <div class="services__container">
-            <div class="services__box">
-                <div class="icon">
-                    <i class="bx bx-code-alt"></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>Web Development</h3>
-                <p>Building responsive, fast, and scalable websites using modern technologies.</p>
-            </div>
-
-            <div class="services__box">
-                <div class="icon">
-                    <i class="bx bxs-paint"></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>UI/UX Design</h3>
-                <p>Designing intuitive user interfaces with a focus on usability and clean aesthetics.</p>
-            </div>
-
-            <div class="services__box">
-                <div class="icon">
-                    <i class="bx bx-palette"></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>Graphic Design</h3>
-                <p>Creating visual content and branding materials that communicate your message clearly.</p>
-            </div>
-            
-            <div class="services__box">
-                <div class="icon">
-                    <i class="bx bx-bug"></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>Testing</h3>
-                <p>Manual and automated testing to ensure your product works smoothly across devices.</p>
-            </div>
-
-            <div class="services__box">
-                <div class="icon">
-                    <i class='bx bxs-bolt-circle'></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>SEO Optimization</h3>
-                <p>Improving site visibility and performance to boost your search engine rankings.</p>
-            </div>
-
-            <div class="services__box">
-                <div class="icon">
-                    <i class='bx bxl-docker'></i>
-                    <a href="#"><i class="bx bx-arrow-back"></i></a>
-                </div>
-                <h3>Integration & DevOps</h3>
-                <p>Setting up CI/CD pipelines and integrating APIs for smoother deployment and development flow.</p>
-            </div>
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services__container">
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Building responsive, fast, and scalable websites using modern
+            technologies.
+          </p>
         </div>
+
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Designing intuitive user interfaces with a focus on usability and
+            clean aesthetics.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            Creating visual content and branding materials that communicate your
+            message clearly.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bx-bug"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Testing</h3>
+          <p>
+            Manual and automated testing to ensure your product works smoothly
+            across devices.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bxs-bolt-circle"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>SEO Optimization</h3>
+          <p>
+            Improving site visibility and performance to boost your search
+            engine rankings.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <div class="icon">
+            <i class="bx bxl-docker"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Integration & DevOps</h3>
+          <p>
+            Setting up CI/CD pipelines and integrating APIs for smoother
+            deployment and development flow.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="resume">
-        <div class="resume__container">
-            <div class="resume__box">
-                <h2>General Info</h2>
-                <p class="desc">Explore my professional background, skills, and experience as a frontend developer.</p>
-                <button class="resume__btn active">Experience</button>
-                <button class="resume__btn">Education</button>
-                <button class="resume__btn">Skills</button>
-                <button class="resume__btn">About Me</button>
-            </div>
-
-            <div class="resume__box">
-                <div class="resume__detail experience active">
-                    <h2 class="heading">My <span>Experience</span></h2>
-                    <p class="desc">Here’s what I’ve been working on — real-world projects, freelance gigs, and hands-on coding experience.</p>
-                    <div class="resume__list">
-                        <div class="resume__item">
-                            <p class="year">2022 - present</p>
-                            <h3>UI/UX Designer</h3>
-                            <p class="company">Freelance</p>
-                            <p>I was learning to code websites, create layouts in Figma, and doing freelance work, creating responsive designs in HTML and CSS.</p>
-                        </div>
-                        <div class="resume__item">
-                            <p class="year">2023 - present</p>
-                            <h3>Frontend Developer</h3>
-                            <p class="company">Freelance</p>
-                            <p>I developed my own pet projects with functionality in React and JavaScript. I worked as a freelancer creating simple single-page applications with minimal functionality.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume__detail education">
-                    <h2 class="heading">My <span>Education</span></h2>
-                    <p class="desc">Courses and studies that helped me build a solid foundation in frontend development.</p>
-
-                    <div class="resume__list">
-                        <div class="resume__item">
-                            <p class="year">2019 - 2023</p>
-                            <h3>Bachelor's Degree</h3>
-                            <p class="company">Taras Shevchenko National University of Kyiv</p>
-                            <p>Received my bachelor's degree in Computer Science.</p>
-                        </div>
-                        <div class="resume__item">
-                            <p class="year">2023 - 2025</p>
-                            <h3>Master's Degree</h3>
-                            <p class="company">Taras Shevchenko National University of Kyiv</p>
-                            <p>Received my master's degree with honors in Computer Science.</p>
-                        </div>
-                        <div class="resume__item">
-                            <p class="year">2023</p>
-                            <h3>Online Courses</h3>
-                            <p class="company">Ciklum</p>
-                            <p>Received my "Frontend. Full course for beginners from Ciklum" certificate.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume__detail skills">
-                    <h2 class="heading">My <span>Skills</span></h2>
-                    <p class="desc">A toolkit I use to build, style, and deploy modern web applications.</p>
-                    <div class="resume__list">
-                        <div class="resume__item">
-                            <i class='bx bxl-html5'></i>
-                            <span>HTML5</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-css3'></i>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-javascript'></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-react'></i>
-                            <span>React.js</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-nodejs' ></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-sass' ></i>
-                            <span>Sass</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-bootstrap' ></i>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="resume__item">
-                            <i class='bx bxl-mongodb' ></i>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume__detail about">
-                    <h2 class="heading">About <span>Me</span></h2>
-                    <p class="desc">A bit more about who I am, where I'm from, and how I work. Let’s connect!</p>
-                    <div class="resume__list">
-                        <div class="resume__item">
-                            <p>Name: <span>Veronika Minaieva</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Age: <span>23</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>City: <span>Kyiv</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Experience: <span>2+ Years</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Full time: <span>Available</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Freelance: <span>Available</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Phone: <span>+380 (66) 852-02-51</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Email: <span>nika.minaieva16@gmail.com</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Telegram: <span>@anarasty_c</span></p>
-                        </div>
-                        <div class="resume__item">
-                            <p>Languages: <span>English, Ukrainian, Russian</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="resume__container">
+        <div class="resume__box">
+          <h2>General Info</h2>
+          <p class="desc">
+            Explore my professional background, skills, and experience as a
+            frontend developer.
+          </p>
+          <button class="resume__btn active">Experience</button>
+          <button class="resume__btn">Education</button>
+          <button class="resume__btn">Skills</button>
+          <button class="resume__btn">About Me</button>
         </div>
+
+        <div class="resume__box">
+          <div class="resume__detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              Here’s what I’ve been working on — real-world projects, freelance
+              gigs, and hands-on coding experience.
+            </p>
+            <div class="resume__list">
+              <div class="resume__item">
+                <p class="year">2022 - present</p>
+                <h3>UI/UX Designer</h3>
+                <p class="company">Freelance</p>
+                <p>
+                  I was learning to code websites, create layouts in Figma, and
+                  doing freelance work, creating responsive designs in HTML and
+                  CSS.
+                </p>
+              </div>
+              <div class="resume__item">
+                <p class="year">2023 - present</p>
+                <h3>Frontend Developer</h3>
+                <p class="company">Freelance</p>
+                <p>
+                  I developed my own pet projects with functionality in React
+                  and JavaScript. I worked as a freelancer creating simple
+                  single-page applications with minimal functionality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Courses and studies that helped me build a solid foundation in
+              frontend development.
+            </p>
+
+            <div class="resume__list">
+              <div class="resume__item">
+                <p class="year">2019 - 2023</p>
+                <h3>Bachelor's Degree</h3>
+                <p class="company">
+                  Taras Shevchenko National University of Kyiv
+                </p>
+                <p>Received my bachelor's degree in Computer Science.</p>
+              </div>
+              <div class="resume__item">
+                <p class="year">2023 - 2025</p>
+                <h3>Master's Degree</h3>
+                <p class="company">
+                  Taras Shevchenko National University of Kyiv
+                </p>
+                <p>
+                  Received my master's degree with honors in Computer Science.
+                </p>
+              </div>
+              <div class="resume__item">
+                <p class="year">2023</p>
+                <h3>Online Courses</h3>
+                <p class="company">Ciklum</p>
+                <p>
+                  Received my "Frontend. Full course for beginners from Ciklum"
+                  certificate.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              A toolkit I use to build, style, and deploy modern web
+              applications.
+            </p>
+            <div class="resume__list">
+              <div class="resume__item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-react"></i>
+                <span>React.js</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-nodejs"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-sass"></i>
+                <span>Sass</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="resume__item">
+                <i class="bx bxl-mongodb"></i>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              A bit more about who I am, where I'm from, and how I work. Let’s
+              connect!
+            </p>
+            <div class="resume__list">
+              <div class="resume__item">
+                <p>Name: <span>Veronika Minaieva</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Age: <span>23</span></p>
+              </div>
+              <div class="resume__item">
+                <p>City: <span>Kyiv</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Experience: <span>2+ Years</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Full time: <span>Available</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Freelance: <span>Available</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Phone: <span>+380 (66) 852-02-51</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Email: <span>nika.minaieva16@gmail.com</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Telegram: <span>@anarasty_c</span></p>
+              </div>
+              <div class="resume__item">
+                <p>Languages: <span>English, Ukrainian, Russian</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="portfolio__container">
-            <div class="portfolio__box">
-                <div class="portfolio__detail active">
-                    <p class="numb">01</p>
-                    <h3>Tasty Drop Clone</h3>
-                    <p>A clone website of a popular case roulette for in-game items from Dota 2.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript, SCSS</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://anarasty.github.io/tasty_drop_clone/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/tasty_drop_clone" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio__detail">
-                    <p class="numb">02</p>
-                    <h3>Pastry Website</h3>
-                    <p>Responsive & adaptive single page pastry application, with simple JavaScript functionality.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://anarasty.github.io/pastry_website/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/pastry_website" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio__detail">
-                    <p class="numb">03</p>
-                    <h3>Car Rental Website</h3>
-                    <p>A simple single-page application with animations and functionality on JavaScript. Slider.js library was used for sliders, and library Swiper.js was used for smooth animations.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://anarasty.github.io/car_rental_simple_website/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/car_rental_simple_website?tab=readme-ov-file" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio__detail">
-                    <p class="numb">04</p>
-                    <h3>React Movie Watchlist App</h3>
-                    <p>A simple application on React, using react-router-dom and hooks such as – useReducer, useEffect, useState, useContext.</p>
-                    <div class="tech">
-                        <p>React, CSS3, TMDB API</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://anarasty.github.io/movie-watchlist/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/movie-watchlist" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio__detail">
-                    <p class="numb">05</p>
-                    <h3>Hosting Website Application</h3>
-                    <p>A simple singe-page application for service that provides web hosting to their clients. Functionality includes simple work with classLists, IF statements and DOM elements.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript, SCSS</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://anarasty.github.io/lemon-wares-website/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/lemon-wares-website" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio__detail">
-                    <p class="numb">06</p>
-                    <h3>ARK: Survival Evolved Game Website</h3>
-                    <p>ARK is my favorite game, and I wanted to create my own website about it that would show users what the game is about and encourage them to join the large community of ARK.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript</p>
-                    </div>
-                    <div class="live__github">
-                        <a href="https://github.com/Anarasty/ark_full_website" target="_blank"><i class="bx bx-arrow-back disabled"></i><span>Live Demo</span></a>
-                        <a href="https://github.com/Anarasty/ark_full_website" target="_blank"><i class="bx bxl-github"></i><span>Github Repo</span></a>
-                    </div>
-                </div>
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio__container">
+        <div class="portfolio__box">
+          <div class="portfolio__detail active">
+            <p class="numb">01</p>
+            <h3>Tasty Drop Clone</h3>
+            <p>
+              A clone website of a popular case roulette for in-game items from
+              Dota 2.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript, SCSS</p>
             </div>
-
-            <div class="portfolio__box">
-                 <div class="portfolio__carousel">
-                    <div class="img__slide">
-                        <div class="img__item">
-                            <img src="./images/website1_page-0001.jpg" alt="website">
-                        </div>
-                        <div class="img__item">
-                            <img src="./images/website2_page-0001.jpg" alt="website">
-                        </div>
-                        <div class="img__item">
-                            <img src="./images/website3_page-0001.jpg" alt="website">
-                        </div>
-                        <div class="img__item">
-                            <img src="./images/website4_page-0001.jpg" alt="website">
-                        </div>
-                        <div class="img__item">
-                            <img src="./images/website5_page-0001.jpg" alt="website">
-                        </div>
-                        <div class="img__item">
-                            <img src="./images/website6_page-0001.jpg" alt="website">
-                        </div>
-                    </div>
-                 </div>
-
-                 <div class="navigation">
-                    <button class="arrow__left disabled"><i class="bx bx-chevron-left"></i></button>
-                    <button class="arrow__right"><i class="bx bx-chevron-right"></i></button>
-                 </div>
+            <div class="live__github">
+              <a
+                href="https://anarasty.github.io/tasty_drop_clone/"
+                target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/tasty_drop_clone"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
             </div>
+          </div>
+
+          <div class="portfolio__detail">
+            <p class="numb">02</p>
+            <h3>Pastry Website</h3>
+            <p>
+              Responsive & adaptive single page pastry application, with simple
+              JavaScript functionality.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live__github">
+              <a
+                href="https://anarasty.github.io/pastry_website/"
+                target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/pastry_website"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__detail">
+            <p class="numb">03</p>
+            <h3>Car Rental Website</h3>
+            <p>
+              A simple single-page application with animations and functionality
+              on JavaScript. Slider.js library was used for sliders, and library
+              Swiper.js was used for smooth animations.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live__github">
+              <a
+                href="https://anarasty.github.io/car_rental_simple_website/"
+                target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/car_rental_simple_website?tab=readme-ov-file"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__detail">
+            <p class="numb">04</p>
+            <h3>React Movie Watchlist App</h3>
+            <p>
+              A simple application on React, using react-router-dom and hooks
+              such as – useReducer, useEffect, useState, useContext.
+            </p>
+            <div class="tech">
+              <p>React, CSS3, TMDB API</p>
+            </div>
+            <div class="live__github">
+              <a
+                href="https://anarasty.github.io/movie-watchlist/"
+                target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/movie-watchlist"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__detail">
+            <p class="numb">05</p>
+            <h3>Hosting Website Application</h3>
+            <p>
+              A simple singe-page application for service that provides web
+              hosting to their clients. Functionality includes simple work with
+              classLists, IF statements and DOM elements.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript, SCSS</p>
+            </div>
+            <div class="live__github">
+              <a
+                href="https://anarasty.github.io/lemon-wares-website/"
+                target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/lemon-wares-website"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__detail">
+            <p class="numb">06</p>
+            <h3>ARK: Survival Evolved Game Website</h3>
+            <p>
+              ARK is my favorite game, and I wanted to create my own website
+              about it that would show users what the game is about and
+              encourage them to join the large community of ARK.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live__github">
+              <a
+                href="https://github.com/Anarasty/ark_full_website"
+                target="_blank"
+                ><i class="bx bx-arrow-back disabled"></i
+                ><span>Live Demo</span></a
+              >
+              <a
+                href="https://github.com/Anarasty/ark_full_website"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repo</span></a
+              >
+            </div>
+          </div>
         </div>
+
+        <div class="portfolio__box">
+          <div class="portfolio__carousel">
+            <div class="img__slide">
+              <div class="img__item">
+                <img src="./images/website1_page-0001.jpg" alt="website" />
+              </div>
+              <div class="img__item">
+                <img src="./images/website2_page-0001.jpg" alt="website" />
+              </div>
+              <div class="img__item">
+                <img src="./images/website3_page-0001.jpg" alt="website" />
+              </div>
+              <div class="img__item">
+                <img src="./images/website4_page-0001.jpg" alt="website" />
+              </div>
+              <div class="img__item">
+                <img src="./images/website5_page-0001.jpg" alt="website" />
+              </div>
+              <div class="img__item">
+                <img src="./images/website6_page-0001.jpg" alt="website" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow__left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow__right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact">
-        <div class="contact__container">
-            <div class="contact__box">
-                <h2>Let's Work Together</h2>
-                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, impedit doloremque? Quam delectus incidunt expedita commodi provident cum porro aliquid?</p>
-
-                <div class="contact__detail">
-                    <i class="bx bxs-phone"></i>
-                    <div class="detail">
-                        <p>Phone</p>
-                        <p>+380 (66) 852-02-51</p>
-                    </div>
-                </div>
-
-                <div class="contact__detail">
-                    <i class="bx bxs-envelope"></i>
-                    <div class="detail">
-                        <p>Email</p>
-                        <p>nika.minaieva16@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="contact__detail">
-                    <i class="bx bxs-map"></i>
-                    <div class="detail">
-                        <p>Address</p>
-                        <p>Shevchenkove, Kyiv</p>
-                    </div>
-                </div>
+      <div class="contact__container">
+        <div class="contact__box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            I'm always open to new opportunities and collaborations. If you have
+            a project in mind or just want to connect — feel free to get in
+            touch.
+          </p>
+          <div class="contact__detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>+380 (66) 852-02-51</p>
             </div>
+          </div>
 
-            <div class="contact__box">
-                <form action="">
-                    <h2 class="heading">Contact <span>Me</span></h2>
-                    <div class="field__box">
-                        <input type="text" placeholder="Full Name" required>
-                        <input type="email" placeholder="Email Address" required>
-                        <input type="text" placeholder="Phone Number" required>
-                        <input type="text" placeholder="Email Subject" required>
-                        <textarea name="" id="" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
+          <div class="contact__detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>nika.minaieva16@gmail.com</p>
             </div>
+          </div>
+
+          <div class="contact__detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Shevchenkove, Kyiv</p>
+            </div>
+          </div>
         </div>
+
+        <div class="contact__box">
+          <form action="https://formspree.io/f/mqabdrva" method="POST">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="field__box">
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email" name="email" placeholder="Email Address" required />
+              <input type="text" name="number" placeholder="Phone Number" required />
+              <input type="text" name="textEmail" placeholder="Email Subject" required />
+              <textarea
+                name="textArea"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
     </section>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
